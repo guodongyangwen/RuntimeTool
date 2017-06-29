@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RuntimeTool_Example' do
+  pod 'RuntimeTool', :path => '../'
+
+  target 'RuntimeTool_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
