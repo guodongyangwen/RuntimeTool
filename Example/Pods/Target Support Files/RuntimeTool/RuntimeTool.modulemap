@@ -1,0 +1,6 @@
+framework module RuntimeTool {
+  umbrella header "RuntimeTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

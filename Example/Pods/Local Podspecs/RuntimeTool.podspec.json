@@ -1,0 +1,22 @@
+{
+  "name": "RuntimeTool",
+  "version": "0.1.0",
+  "summary": "A short description of RuntimeTool.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/guodongyangw@163.com/RuntimeTool",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "guodongyangw@163.com": "guodongyang@qfpay.com"
+  },
+  "source": {
+    "git": "https://github.com/guodongyangw@163.com/RuntimeTool.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RuntimeTool/Classes/**/*"
+}

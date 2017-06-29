@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1CAD4E4E31F363FC1E80E07C /* RuntimeTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RuntimeTool.podspec; path = ../RuntimeTool.podspec; sourceTree = "<group>"; };
-		3E5CF0DB33DEF2F2803DC3B8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1CAD4E4E31F363FC1E80E07C /* RuntimeTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RuntimeTool.podspec; path = ../RuntimeTool.podspec; sourceTree = "<group>"; };
+		3E5CF0DB33DEF2F2803DC3B8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		46E754EC855697E82D181567 /* Pods-RuntimeTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuntimeTool_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RuntimeTool_Example/Pods-RuntimeTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* RuntimeTool_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuntimeTool_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -62,7 +62,7 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A4DA4EF58BDAA9A32B0B801 /* Pods-RuntimeTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuntimeTool_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RuntimeTool_Tests/Pods-RuntimeTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A73A794670A9E43E8BB6DE3F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A73A794670A9E43E8BB6DE3F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CD5000A63A396A394B52CF1A /* Pods-RuntimeTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RuntimeTool_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RuntimeTool_Tests/Pods-RuntimeTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D07F061AC73FC2CB4A02A09C /* Pods_RuntimeTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RuntimeTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F07977D026A80B4882846CB6 /* Pods_RuntimeTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RuntimeTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -251,6 +251,7 @@
 				ORGANIZATIONNAME = "guodongyangw@163.com";
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
+						LastSwiftMigration = 0830;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -568,6 +569,7 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RuntimeTool_Example.app/RuntimeTool_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -588,6 +590,7 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RuntimeTool_Example.app/RuntimeTool_Example";
 				WRAPPER_EXTENSION = xctest;
 			};

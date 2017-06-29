@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - RuntimeTool (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - RuntimeTool (from `../`)
+
+EXTERNAL SOURCES:
+  RuntimeTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: '094f9f314decbabe373b87cc339bea235a63e07a'
+  RuntimeTool: b5574d3bbe560c52d43f8df7559a57b6c86d861a
+
+PODFILE CHECKSUM: d304875f341d973dd31642b3cdfc566be6c3a366
+
+COCOAPODS: 1.2.0
