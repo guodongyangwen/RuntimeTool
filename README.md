@@ -6,6 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/RuntimeTool.svg?style=flat)](http://cocoapods.org/pods/RuntimeTool)
 
 RuntimeTool是一个帮你轻松使用runtime的工具集。
+
 ##功能：
 
 * 获取类所有的变量列表
@@ -18,10 +19,14 @@ RuntimeTool是一个帮你轻松使用runtime的工具集。
 * 方法替换
 * 设置私有变量
 
+
 ## Installation
+
 RuntimeTool支持多种安装方法
 
+
 ###installation with CocoaPods
+
 RuntimeTool is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
@@ -36,43 +41,56 @@ pod install
 ```
 
 
+
 ##Usage
 
+
 ####获取所有变量列表
+
 
 ```
     [RuntimeTool getVarsForClassName:@"UIView"];
     [RuntimeTool getVarsForClass:[UIView class]];
 ```
 
+
 ####获取所有的属性列表
+
 
 ```
     [RuntimeTool getPropertiesForClass:[UIView class]];
     [RuntimeTool getPropertiesForClassName:@"UIView"];
 ```
 
+
 ####获取所有的方法列表
+
 
 ```
     [RuntimeTool getMethodsForClass:[UIView class]];
     [RuntimeTool getMethodsForClassName:@"UIView"];
 ```
 
+
 ####通过NSInvocation调用方法
+
 
 ```
     TestClass * test = [TestClass new];
     id returnValue = [RuntimeTool invokeMethod:test method:@selector(setNum:height:name:) argumentValue:@(10), nil];
 ```
 
+
 ####运行时动态创建类
+
 
 ```
     Class class = [RuntimeTool createClassOnRuntime:@"MyButton" superClass:@"UIButton"];
 ```
 
+
 ####运行时动态创建方法
+
 
 ```
     NSString* className = @"MyButton";
@@ -88,7 +106,9 @@ pod install
 }
 ```
 
+
 ####关联对象
+
 
 ```
     //给当前controller关联一个color对象
@@ -102,7 +122,9 @@ pod install
     [self performSelector:@selector(clearColor) withObject:nil afterDelay:2];
 ```
 
+
 ####方法替换
+
 
 ```
 - (void)test1 {
@@ -138,7 +160,10 @@ pod install
 
 ```
 
+
 ####设置私有变量
+
+
 
 ```
     TestClass * test = [TestClass new];
